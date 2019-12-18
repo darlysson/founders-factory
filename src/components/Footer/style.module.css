@@ -1,0 +1,112 @@
+.footerContainer {
+  height: 500px;
+  background: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerContainer .infos {
+  margin: 60px 0 60px 50px;
+}
+
+.footerContainer .address {
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+
+.footerContainer .infos h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footerContainer .infos p {
+  margin-top: 15px;
+  font-size: 17px;
+  width: 43%;
+  color: #1D1D1D;
+}
+.footerContainer .infos form {
+  margin-top: 20px;
+}
+
+.footerContainer .infos form input {
+  height: 50px;
+  width: 300px;
+  background: #FFF;
+  color: #000;
+  font-size: 14px;
+  border: 1.5px solid #000;
+}
+
+.footerContainer .infos form button {
+  width: 70px;
+  height: 50px;
+  color: #000;
+  background: #FFF;
+  border: 1.2px solid #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footerContainer .infos ul {
+  list-style: none;
+  display: flex;
+  margin-top: 100px;
+}
+
+.footerContainer .infos ul li {
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.footerContainer .infos ul li a {
+  color: #F92F56;
+  text-decoration: none;
+}
+
+.footerContainer .infos p {
+  margin-top: 40px;
+}
+
+.footerContainer .address {
+  text-align: right;
+}
+
+
+.footerContainer .address h2 {
+  font-size: 14px;
+}
+
+.footerContainer .address p {
+  margin-top: 5px;
+  line-height: 23px;
+}
+
+.footerContainer .address .iconsList {
+  margin-top: 25px;
+}
+
+.footerContainer .address .iconsList ul {
+  list-style: none;
+  display: flex;
+}
+
+.footerContainer .address .iconsList ul li {
+  margin-right: 10px;
+}
+
+.footerContainer .address .iconsList ul li:last-child {
+  margin-right: 0;
+}
+.footerContainer .address .iconsList ul li svg {
+  width: 25px;
+  height: 25px;
+  color: #F4F4F4;
+  background-color: #B1B1B1;
+  border-radius: 50%;
+}
+

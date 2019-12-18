@@ -1,0 +1,44 @@
+header {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: bold;
+  line-height: 27px;
+  font-size: 30px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+header h1 span {
+  font-size: 30px;
+  border-radius: 4px;
+  color: yellow;
+}
+
+.btns button:first-child {
+  margin-right: 10px;
+}
+
+.btns button {
+  width: 100px;
+  height: 40px;
+  color: #333;
+  background: #FFF;
+  border: 1.5px solid rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btns button:last-child {
+  width: 120px;
+}
+
+.btns button svg {
+  margin-left: 10px;
+  /* font-weight: bold; */
+  font-size: 14px;
+  margin-right: 0;
+}

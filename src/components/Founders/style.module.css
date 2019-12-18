@@ -1,0 +1,88 @@
+.foundersContainer {
+  height: 500px;
+  background: #FFF;
+}
+
+.foundersContainer > h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 103px 0 53px
+}
+
+.foundersContainer .sections {
+  display: flex;
+  flex-direction: row;
+}
+
+.foundersContainer .sections .photo {
+  margin-right: -60px;
+}
+
+.foundersContainer .sections .founderInfos {
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foundersContainer .sections .founderInfos h1 {
+  font-size: 21px;
+  margin-top: 12px;
+}
+
+.foundersContainer .sections .founderInfos  p {
+  font-size: 15px;
+  margin: 12px 0 25px;
+  width: 80%;
+}
+
+.foundersContainer .sections .founderInfos  a {
+  color: #F92F56;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.foundersContainer .sections button {
+  width: 100px;
+  border: 0;
+  background: #FFF;
+  font-size: 254px;
+}
+
+.foundersContainer .sections button:first-child {
+  margin-right: 40px;
+}
+
+.foundersContainer .sections button:last-child {
+  margin-left: 40px;
+}
+
+.foundersContainer .sections .photo img {
+  width: 80%;
+}
+
+.foundersContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  padding: 10px;
+  height: 50px;
+  color: #333;
+  background: #FFF;
+  border: 1.5px solid rgb(0, 0, 0);
+  font-weight: bold;
+  padding-left: 17px;
+}
+
+.foundersContainer #btn {
+  margin: 50px 0 0 550px;
+}
+.foundersContainer #btn svg{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  margin-right: 0;
+}
+
+
