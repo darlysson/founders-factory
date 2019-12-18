@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 71px;
 }
 
 .cardsContainer .cards {
@@ -29,7 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 55px;
+  margin-right: 50px;
 }
 
 .cardsContainer .knowUs h1 {

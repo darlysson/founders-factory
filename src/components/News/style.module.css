@@ -18,16 +18,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between; 
-  margin: 0 50px 0 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .newsContainer #sections .card1 {
-  margin-right: 15px;
+  margin-left: 80px;
 }
 
-.newsContainer #sections .card2 {
-  margin-right: 15px;
+.newsContainer #sections .card3 {
+  margin-right: 50px;
 }
 
 .newsContainer #sections section img {
@@ -55,9 +54,9 @@
 .hrNews { 
   border: none;
   border-left: 1px solid #000;
-  height: 370px;
+  height: 361px;
   width: 1px;
-  padding-right: 15px;
+  padding: 0 9px 0 12px;
 }
 
 .newsContainer button {

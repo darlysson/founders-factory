@@ -15,8 +15,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  margin-right: 42px;
-  /* margin-left: 170px; */
+  margin-right: 50px;
   text-align: right;
   background: #f4f4f4;
 }
@@ -24,7 +23,6 @@
 .futureContainer .betterFutures h1 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
-  /* width: 80% !important; */
 }
 
 .futureContainer .betterFutures p {

@@ -45,12 +45,14 @@
   margin-right: 0;
 }
 
+.partnerContainer .logos {
+  margin-right: 10px;
+}
 .partnerContainer .logos span {
   display: flex;
   width: 60%;
   justify-content: space-between;
   align-items: center;
-  padding-right: 92px;
   margin-top: -40px;
 }
 

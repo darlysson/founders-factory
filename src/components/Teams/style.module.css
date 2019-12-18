@@ -1,16 +1,27 @@
 .teamContainer {
-  height: 300px;
+  height: 400px;
   background: #18342f;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 45px;
 }
 
 .hrTeam { 
   border: none;
   border-left: 1px solid #FFF;
   height: 225px;
-  width: 1px;       
+  width: 1px;
+  padding: 0px 60px 0 15px;
+  margin-left: -65px;     
+}
+
+.teamContainer section:first-child {
+  margin-left: 50px;
+}
+
+.teamContainer section:last-child {
+  margin-right: 50px;
 }
 
 .teamContainer section h1 {
@@ -20,7 +31,6 @@
   font-weight: bold;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  margin-left: 50px;
   color: #FFF;
 }
 
@@ -28,7 +38,7 @@
   font-size: 18px;
   color: #FFF;
   font-family: 'Lato', sans-serif;
-  margin: 0 50px;
   font-weight: normal;
   line-height: 32px;
+  width: 80%;
 }
