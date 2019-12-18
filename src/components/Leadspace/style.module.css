@@ -9,9 +9,26 @@
 
 .leadspaceContainer h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 90px;
+  font-size: 85px;
 }
 
+.leadspaceContainer h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.leadspaceContainer .arm {
+  width: 100px;
+  margin-left: 25px;
+  
+}
+
+.leadspaceContainer .arrow {
+  width: 180px;
+  margin-right: 5px;
+}
 .leadspaceContainer h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
