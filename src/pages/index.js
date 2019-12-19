@@ -1,6 +1,7 @@
 import React from "react"
 
 import '../styles/global.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from '../components/Container';
 import MainContainer from '../components/MainContainer';

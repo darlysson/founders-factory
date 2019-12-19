@@ -40,9 +40,9 @@
   font-size: 14px;
 }
 
-.foundersContainer .carousel-control-prev a {
+/* .foundersContainer .carousel-control-prev a {
   opacity: 1!important;
-}
+} */
 
 .foundersContainer .icon {
   font-size: 120px;
@@ -60,6 +60,7 @@
   border: 1.5px solid rgb(0, 0, 0);
   font-weight: bold;
   padding-left: 22px;
+  display: flex;
 }
 
 .foundersContainer button svg {
@@ -67,4 +68,6 @@
   font-weight: bold;
   font-size: 26px;
   margin-right: 0;
+  justify-content: center;
+  align-items: center;
 }
