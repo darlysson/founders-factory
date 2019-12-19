@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './style.module.css';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 
-import strong from './img/strong.png'
+import strong from './img/strong-arm.png'
 import arrow from './img/arrow.png'
 
 export default () => (
