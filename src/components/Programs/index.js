@@ -9,13 +9,13 @@ export default () => (
 
   <div className={styles.sections}>
     <section>
-      <h1>Studio</h1>
+      <h2>Studio</h2>
       <p>Partner with us to<br /> build a new startup</p>
       <button>More on our Studio Program <MdKeyboardArrowRight /></button>
     </section>
     
     <section>
-      <h1>Seed</h1>
+      <h2>Seed</h2>
       <p>Team up with us to<br /> grow your business</p>
       <button>More on our Studio Program <MdKeyboardArrowRight /></button>
     </section>

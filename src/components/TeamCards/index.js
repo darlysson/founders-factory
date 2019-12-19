@@ -8,22 +8,22 @@ export default () => (
     <div className={styles.cards}>
       <section>
         <img src="https://via.placeholder.com/200" alt="Placeholder"/>
-        <h1>Cat Jones</h1>
+        <h3>Cat Jones</h3>
         <p>Travel and Media</p>
       </section>
       <section>
         <img src="https://via.placeholder.com/200" alt="Placeholder"/>
-        <h1>Cat Jones</h1>
+        <h3>Cat Jones</h3>
         <p>Travel and Media</p>
       </section>
       <section>
         <img src="https://via.placeholder.com/200" alt="Placeholder"/>
-        <h1>Cat Jones</h1>
+        <h3>Cat Jones</h3>
         <p>Travel and Media</p>
       </section>
       <section>
         <img src="https://via.placeholder.com/200" alt="Placeholder"/>
-        <h1>Cat Jones</h1>
+        <h3>Cat Jones</h3>
         <p>Travel and Media</p>
       </section>
     </div>
