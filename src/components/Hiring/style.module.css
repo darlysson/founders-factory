@@ -7,39 +7,11 @@
   align-items: center;
 }
 
-.hiringContainer h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
-  font-weight: bold;
-}
-
 .hiringContainer p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   font-size: 20px;
   line-height: 25px;
   margin: 30px 350px 0;
   text-align: center;
   width: 40%;
-}
-
-.hiringContainer button {
-  width: 230px;
-  height: 50px;
-  color: #000;
-  background: #E2E4C1;
-  border: 1.5px solid #000;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 50px;
-  padding-left: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hiringContainer button svg { 
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 26px;
-  margin-right: 0;
 }

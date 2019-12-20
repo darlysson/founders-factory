@@ -1,5 +1,6 @@
 import React from 'react';
-import { MdKeyboardArrowRight } from 'react-icons/md';
+import Button from '../Helpers/Button';
+import SectionTitle from '../Helpers/SectionTitle';
 
 import card1 from './img/card1.png';
 import card2 from './img/card2.png';
@@ -8,7 +9,7 @@ import styles from './style.module.css';
 
 export default () => (
   <div className={styles.newsContainer}>
-    <h1>What we've been up to</h1>
+    <SectionTitle title={`What we've been up to`} color={`#000`}/>
 
     <div id={styles.sections}>
       <section className={styles.card1}>
@@ -34,7 +35,16 @@ export default () => (
       </section>
     </div>
     
-    <button>More news & updates <MdKeyboardArrowRight /></button>
+    <Button
+      to={'/news'} 
+      label={'More news & updates'} 
+      color={`#000`} 
+      background={`#FFF`}
+      width={`235px`}
+      height={`50px`}
+      margin={`55px 0px 0px 0`}
+      padding={`0 0 0 7px`} 
+    />
   </div>
 )
 

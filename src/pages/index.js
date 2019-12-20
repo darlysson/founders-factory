@@ -1,8 +1,6 @@
 import React from "react"
 
 import '../styles/global.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Container from '../components/Container';
 import MainContainer from '../components/MainContainer';
 import Header from '../components/Header';
@@ -16,6 +14,7 @@ import Founders from '../components/Founders';
 import Hiring from '../components/Hiring';
 import News from '../components/News';
 import Footer from '../components/Footer';
+
 
 export default () => (
     <>

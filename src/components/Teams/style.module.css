@@ -26,18 +26,14 @@
 
 .teamContainer section h1 {
   text-align: left;
-  font-size: 35px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  color: #FFF;
 }
 
 .teamContainer section p {
   font-size: 18px;
   color: #FFF;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   font-weight: normal;
   line-height: 32px;
   width: 80%;

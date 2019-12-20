@@ -11,38 +11,11 @@
   margin-left: 50px;
 }
 
-.partnerContainer .partnerPromotion h1 {
-  font-size: 35px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-}
 .partnerContainer .partnerPromotion p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   line-height: 30px;
   margin-top: 30px;
   font-size: 20px;
-}
-
-.partnerContainer .partnerPromotion button {
-  width: 230px;
-  height: 50px;
-  color: #333;
-  background: #FFF;
-  border: 1.5px solid rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 35px;
-  padding-left: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.partnerContainer .partnerPromotion button svg {
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 26px;
-  margin-right: 0;
 }
 
 .partnerContainer .logos {

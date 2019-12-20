@@ -14,7 +14,7 @@ import styles from './style.module.css';
 export default () => (
   <div className={styles.footerContainer}>
     <section className={styles.infos}>
-      <h2>FOUNDERS <br />FACTORY.</h2>
+      <h2>FOUNDERS <br />FACTORY<span>.</span></h2>
       <p>To keep up to date on our news, events and career opportunities, sig up to our newsletter The factory Floor here:</p>
       <form>
         <input type="text" placeholder=" Email..."/>
@@ -22,9 +22,9 @@ export default () => (
       </form>
       
       <ul>
-        <li><Link to="#">Get directions</Link></li>
-        <li><Link to="#">Press</Link></li>
-        <li><Link to="#">Contact</Link></li>
+        <li><Link to="/">Get directions</Link></li>
+        <li><Link to="/">Press</Link></li>
+        <li><Link to="/">Contact</Link></li>
       </ul>
       <p>© 2019 Founder Factory Ltd.All rights reserved.</p>
     </section>
@@ -35,32 +35,32 @@ export default () => (
       <div className={styles.iconsList}>
         <ul>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialFacebookCircular />
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialInstagram />
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialLinkedin />
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialTwitter />
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialPinterest />
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/">
               <TiSocialSkypeOutline />
             </Link>
           </li>

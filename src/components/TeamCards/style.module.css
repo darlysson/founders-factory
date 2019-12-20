@@ -21,9 +21,12 @@
 .cardsContainer .cards section h3 {
     margin-top: 15px;
     font-size: 22px;
+    font-family: 'Be Vietnam', sans-serif;
 }
+
 .cardsContainer .cards section p {
   margin-top: 15px;
+  font-family: 'Be Vietnam', sans-serif;
 }
 
 .cardsContainer .knowUs {
@@ -31,36 +34,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 125px;
 }
 
 .cardsContainer .knowUs h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 30px;
   color: #FFF;
   margin-left: -80px;
 }
-
-.cardsContainer .knowUs button {
-  width: 200px;
-  height: 50px;
-  color: #FFF;
-  background: #18342f;
-  border: 1.5px solid #FFF;
-  margin-right: 75px;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 5px;
-}
-
-.cardsContainer .knowUs button svg {
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 26px;
-  margin-right: 0;
-}
-

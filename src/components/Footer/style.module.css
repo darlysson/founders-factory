@@ -15,8 +15,14 @@
 }
 
 .footerContainer .infos h2 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  line-height: 14px;
+}
+
+.footerContainer .infos h2 span {
+  font-size: 27px;
 }
 
 .footerContainer .infos p {
@@ -76,12 +82,14 @@
 
 
 .footerContainer .address h2 {
-  font-size: 14px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footerContainer .address p {
   margin-top: 5px;
   line-height: 23px;
+  font-size: 14px;
 }
 
 .footerContainer .address .iconsList {
