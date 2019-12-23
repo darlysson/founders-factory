@@ -1,11 +1,12 @@
 import React from 'react';
-import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from 'react-icons/md';
-import Carousel from 'react-bootstrap/Carousel'
-
-import styles from './style.module.css';
+import { Link } from 'gatsby';
 import Button from '../Helpers/Button';
+import styles from './style.module.css';
+import founder from './img/founder.png';
+import logo from './img/founder-logo.png';
+import Carousel from 'react-bootstrap/Carousel'
 import SectionTitle from '../Helpers/SectionTitle';
-import CarouselItem from '../Helpers/CarouselItem';
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from 'react-icons/md';
 
 export default () => (
 
@@ -16,14 +17,32 @@ export default () => (
       color={`#000`} 
     />
     
-    {/* It renders the CarouselComponent from "react-bootstrap" */}
     <Carousel
       interval={null} 
       indicators={false} 
-      prevIcon={<MdKeyboardArrowLeft className={styles.icon}/>} 
+      prevIcon={<MdKeyboardArrowLeft style={{opacity: 1}} className={styles.icon}/>} 
       nextIcon={<MdKeyboardArrowRight className={styles.icon}/>}
     >
-      <CarouselItem />
+      <Carousel.Item className={styles.founderContainer}>
+        <img className={styles.founderAvatar} src={founder} alt="First slide"/>
+        
+        <div className={styles.founderInfos}>
+          <img src={logo} alt="Logo placeholder"/>
+          <h1>Marie Chevrier</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis, minus reiciendis libero harum cumque?</p>
+          <Link to="/">Learn more about Sampler</Link>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item className={styles.founderContainer}>
+        <img className={styles.founderAvatar} src={founder} alt="First slide"/>
+        
+        <div className={styles.founderInfos}>
+          <img src={logo} alt="Logo placeholder"/>
+          <h1>Marie Chevrier</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis, minus reiciendis libero harum cumque?</p>
+          <Link to="/">Learn more about Sampler</Link>
+        </div>
+      </Carousel.Item>
     </Carousel>
     
     {/* It renders Button helper-component. */}
