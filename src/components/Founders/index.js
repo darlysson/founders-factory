@@ -13,14 +13,15 @@ export default () => (
   <div className={styles.foundersContainer}>
     {/* It renders SectionTitle helper-component. */}
     <SectionTitle 
-      title={`Here are some of our brilliant founders`} 
-      color={`#000`} 
+      color={`#000`}
+      margin={`0px 0px 50px`} 
+      title={`Here are just some of our brilliant founders.`} 
     />
     
     <Carousel
       interval={null} 
       indicators={false} 
-      prevIcon={<MdKeyboardArrowLeft style={{opacity: 1}} className={styles.icon}/>} 
+      prevIcon={<MdKeyboardArrowLeft className={styles.icon}/>} 
       nextIcon={<MdKeyboardArrowRight className={styles.icon}/>}
     >
       <Carousel.Item className={styles.founderContainer}>
@@ -47,14 +48,14 @@ export default () => (
     
     {/* It renders Button helper-component. */}
     <Button
-      to={'/founders'} 
-      label={'See our current portfolio'} 
       color={`#000`} 
-      background={`#FFF`}
       width={`235px`}
       height={`50px`}
-      margin={`55px 0px 0px 0`}
+      to={'/founders'} 
+      background={`#FFF`}
       padding={`0 0 0 7px`} 
+      margin={`55px 0px 0px`}
+      label={'See our current portfolio'} 
     />
   </div>
 )

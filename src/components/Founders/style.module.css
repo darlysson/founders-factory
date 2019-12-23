@@ -1,14 +1,10 @@
 .foundersContainer {
-  height: 600px;
+  height: 700px;
   background: #FFF;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.foundersContainer > h1 {
-  margin: 5px 0 30px;
 }
 
 .founderContainer .founderAvatar {
@@ -25,6 +21,7 @@
    font-size: 33px;
    margin-top: 20px;
    font-weight: bold;
+   font-family: 'Mukta Mahee', sans-serif;
  }
  
  .founderContainer .founderInfos p {
@@ -43,7 +40,7 @@
   font-size: 100px;
   opacity: 1;
  } 
- 
+  /*
 .carousel-control-prev svg {
    opacity: 1 !important;
- }
+ } */

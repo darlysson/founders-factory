@@ -17,7 +17,7 @@ export default () => (
       <h2>FOUNDERS <br />FACTORY<span>.</span></h2>
       <p>To keep up to date on our news, events and career opportunities, sig up to our newsletter The factory Floor here:</p>
       <form>
-        <input type="text" placeholder=" Email..."/>
+        <input type="text" placeholder="  Email..."/>
         <button>Send</button>
       </form>
       
