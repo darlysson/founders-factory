@@ -19,27 +19,26 @@ header h1 span {
   color: #F4DB42;
 }
 
-.btns button:first-child {
-  margin-right: 10px;
-}
-
-.btns button {
-  width: 100px;
-  height: 40px;
+.btns a {
   color: #333;
   background: #FFF;
   border: 1.5px solid rgb(0, 0, 0);
   font-weight: bold;
   font-size: 14px;
+  text-decoration: none;
 }
 
-.btns button:last-child {
+.btns a:first-child {
+  margin-right: 10px;
+  padding: 10px 20px 10px;
+}
+
+.btns a:last-child {
   width: 120px;
+  padding: 10px 20px;
 }
 
-.btns button svg {
-  margin-left: 10px;
-  /* font-weight: bold; */
-  font-size: 14px;
-  margin-right: 0;
+.btns a svg {
+  font-size: 20px;
+  margin-left: 45px;
 }
